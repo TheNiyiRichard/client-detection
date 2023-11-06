@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&display=swap');
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	color: #efefef;
+	min-height: 100dvh;
+	background-color:#000000;
+}
+
+
+button {
+	border: none;
+	color: #fff;
+}
+.system-info{
+	border: 1px solid #404040;
+    border-radius: 8px;
+	width: 300px;
+	margin-bottom: 20px;
+}
+.system-info label{
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #40404082;
+	margin-bottom: 10px;
+}
+.system-info div > div{
+	margin-bottom: 10px;;
+}
+button{
+	width: 300px;
+	height: 50px;
+	color:white;
+	border-radius: 10px;
+}
